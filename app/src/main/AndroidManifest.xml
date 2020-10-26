@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.prottm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginoption" />
+        <activity android:name=".studentlogin" />
+        <activity android:name=".facultylogin" />
+        <activity android:name=".adminlogin" />
+        <activity android:name=".student" />
+        <activity android:name=".faculty" />
+        <activity android:name=".admin" />
+        <activity android:name=".viewtt" />
+        <activity android:name=".forget" />
+        <activity android:name=".signup" />
+        <activity android:name=".viewnotifiction" />
+        <activity android:name=".generatett" />
+        <activity android:name=".facultyadd" />
+        <activity android:name=".registration" />
+        <activity android:name=".FacultyDisplay" />
+        <activity android:name=".SendNotification" />
+        <activity android:name=".GEN" />
+        <activity android:name=".Lab" />
+        <activity android:name=".Lecture" />
+        <activity android:name=".singleTimeTable" />
+        <activity android:name=".timetableDisplay" />
+        <activity android:name=".facultyAdminContact"></activity>
+    </application>
+
+</manifest>

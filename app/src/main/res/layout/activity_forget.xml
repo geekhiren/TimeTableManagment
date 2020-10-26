@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.example.prottm.forget">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif"
+        android:text="Forget Password"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtmobile"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_button"
+        android:fontFamily="serif"
+        android:hint="Enter Email ID"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="Send" />
+
+    <EditText
+        android:id="@+id/edtotp"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_button"
+        android:fontFamily="serif"
+        android:hint="Enter OTP"
+        android:inputType="number"
+        android:textColorHint="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnotp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="Submit" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_screen"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.example.prottm.loginoption">
+
+    <Button
+        android:id="@+id/btnstudent"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_back"
+        android:fontFamily="serif"
+        android:onClick="studentlogin"
+        android:text="Student"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnfaculty"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_back"
+        android:fontFamily="serif"
+        android:onClick="facultylogin"
+        android:text="Faculty"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnadmin"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_back"
+        android:fontFamily="serif"
+        android:onClick="adminlogin"
+        android:text="Admin"
+        android:textSize="20dp" />
+
+</LinearLayout>

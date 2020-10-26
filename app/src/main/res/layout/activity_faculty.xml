@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_screen"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.example.prottm.faculty">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif"
+        android:text="Faculty"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/fview"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_back"
+        android:fontFamily="serif"
+        android:onClick="fview"
+        android:text="View Time Table" />
+
+    <Button
+        android:id="@+id/fnotifi"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_back"
+        android:fontFamily="serif"
+        android:onClick="fnotifi"
+        android:text="View Notifiction" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_back"
+        android:fontFamily="serif"
+        android:onClick="send"
+        android:text="Send Notifiction" />
+
+</LinearLayout>

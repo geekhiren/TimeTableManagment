@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_ground"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.example.prottm.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_icon1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <View
+            android:id="@+id/v1"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="#343434" />
+
+        <View
+            android:id="@+id/v2"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="30dp"
+            android:background="#343434" />
+
+        <View
+            android:id="@+id/v3"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="30dp"
+            android:background="#343434" />
+
+        <View
+            android:id="@+id/v4"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="30dp"
+            android:background="#343434" />
+
+        <View
+            android:id="@+id/v5"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="30dp"
+            android:background="#343434" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,123 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TTM</string>
+
+    <string-array name="lab">
+        <item>LAB LOAD</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="time">
+        <item>SELECT TIME</item>
+        <item>10:30</item>
+        <item>11:30</item>
+        <item>12:30</item>
+        <item>1:30</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+    </string-array>
+    <string-array name="lecture">
+        <item>LECTURE LOAD</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="day">
+        <item>SELECT DAY</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+
+    </string-array>
+    <string-array name="Class">
+        <item>SELECT CLASS</item>
+        <item>6 A</item>
+        <item>6 B</item>
+        <item>5 A</item>
+        <item>5 B</item>
+        <item>4 A</item>
+        <item>4 B</item>
+        <item>3 A</item>
+        <item>3 B</item>
+    </string-array>
+
+    <string-array name="Subject">
+        <item>SELECT SUBJECT</item>
+        <item>AJP</item>
+        <item>MCAD</item>
+        <item>NMA</item>
+        <item>PDA</item>
+        <item>PROJECT</item>
+    </string-array>
+    <string-array name="Faculty">
+        <item>SELECT FACULTY</item>
+        <item>NSB</item>
+        <item>PJJ</item>
+        <item>BMM</item>
+        <item>JBV</item>
+        <item>HSG</item>
+        <item>NRT</item>
+        <item>NRT</item>
+        <item>NCK</item>
+        <item>DSP</item>
+        <item>KVM</item>
+    </string-array>
+    <string-array name="Faculty1">
+        <item>SELECT FACULTY</item>
+        <item>NSB</item>
+        <item>PJJ</item>
+        <item>BMM</item>
+        <item>JBV</item>
+        <item>HSG</item>
+        <item>NRT</item>
+        <item>NRT</item>
+        <item>NCK</item>
+        <item>DSP</item>
+        <item>KVM</item>
+    </string-array>
+    <string-array name="lablec">
+        <item>LAB</item>
+        <item>LECTURE</item>
+    </string-array>
+    <string-array name="Faculty2">
+        <item>SELECT FACULTY</item>
+        <item>NSB</item>
+        <item>PJJ</item>
+        <item>BMM</item>
+        <item>JBV</item>
+        <item>HSG</item>
+        <item>NRT</item>
+        <item>NRT</item>
+        <item>NCK</item>
+        <item>DSP</item>
+        <item>KVM</item>
+    </string-array>
+    <string-array name="Faculty3">
+        <item>SELECT FACULTY</item>
+        <item>NSB</item>
+        <item>PJJ</item>
+        <item>BMM</item>
+        <item>JBV</item>
+        <item>HSG</item>
+        <item>NRT</item>
+        <item>NRT</item>
+        <item>NCK</item>
+        <item>DSP</item>
+        <item>KVM</item>
+    </string-array>
+</resources>

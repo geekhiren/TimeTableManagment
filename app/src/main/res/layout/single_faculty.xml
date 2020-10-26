@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_notifi"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <TextView
+        android:id="@+id/tvDisfid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="serif"
+        android:text="TextView1"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvDisfname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="serif"
+        android:text="TextView2"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvDisload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="serif"
+        android:text="TextView3"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvDisfsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="serif"
+        android:text="TextView4"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvDisflab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="serif"
+        android:text="TextView5"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvDisflect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="serif"
+        android:text="TextView6"
+        android:textColor="@android:color/black" />
+
+
+</LinearLayout>

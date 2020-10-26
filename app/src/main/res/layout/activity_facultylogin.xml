@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.example.prottm.facultylogin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif"
+        android:text="Faculty Login"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/fid"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_button"
+        android:drawableLeft="@drawable/ic_person"
+        android:fontFamily="serif"
+        android:hint=" Faculty Id"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/fpass"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_button"
+        android:drawableLeft="@drawable/ic_lock"
+        android:fontFamily="serif"
+        android:hint=" Password"
+        android:password="true"
+        android:textColorHint="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnFlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:onClick="facLogin"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="serif"
+            android:onClick="signupclick"
+            android:text="SignUp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/forpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:onClick="fp"
+        android:text="Forget Password ?"
+        android:textColor="#f15b05"
+        android:textSize="15dp" />
+</LinearLayout>
